@@ -1,0 +1,28 @@
+.cartitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.cartItemImg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cartItemDetail{
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+@media screen and (max-width:771px) {
+    .search{
+        display: none !important;
+    }
+}
